@@ -1,0 +1,89 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px;
+}
+/* estilos - formulario */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.formulario{
+    border: 1px solid #e1e1e1;
+    padding: 20px 40px;
+    box-shadow: 2px 12px 12px rgba(0, 0, 0, 0.2);
+}
+
+label, input{
+    display: block;
+}
+
+label, input {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input:not([type="submit"]){
+    border: none;
+    background-color: #e1e1e1;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+textarea {
+    background-color: #e1e1e1;
+    border: none;
+}
+
+.btn{
+    border: none;
+    background: blue;
+    padding: 10px 25px;
+    color: #ffffff;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+/* Tabla - admin */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.usuario-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.usuario-content a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 17px;
+}
